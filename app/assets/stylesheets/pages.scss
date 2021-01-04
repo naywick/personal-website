@@ -1,10 +1,40 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-.banner {
-  background-image:url('images/ocean.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  text-align: center;
+:root {
+  --mint: #64e3ae;
+  --cyan: #2addb6;
+  --blue: #1ebef0;
+  --purple: #cb90f4;
+  --pink: #FF00FF;
+  --red: #fe1d63;
+  --orange: #ea605e;
+  --light-orange: #fcc457;
+  --off-white: #e0e0e0;
+  --very-dark-gray: #222222;
+}
+
+body {
+  font-family: 'Roboto Mono';
+  background-color: var(--very-dark-gray);
+}
+
+h1 {
+  color: var(--blue);
+}
+
+h2 {
+  color: var(--mint);
+}
+
+p {
+  color: var(--off-white);
+}
+
+.tldr-intro {
+  margin-bottom: 50px;
+}
+
+a {
+  color: var(--pink);
 }
