@@ -38,3 +38,18 @@ p {
 a {
   color: var(--pink);
 }
+
+// Styling for past version of pages
+.past-body {
+  background: white;
+}
+
+.past h1, h3 {
+  font-family: 'Lato', sans-serif;
+  color: var(--very-dark-gray);
+}
+
+.past-p {
+  font-family: 'Lato', sans-serif;
+  color: var(--very-dark-gray);
+}
