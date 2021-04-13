@@ -1,5 +1,3 @@
-
-
 var colour="random"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles=100;// increase of decrease for number of sparkles falling
 
@@ -83,7 +81,7 @@ function animate(){
 		}
 	}
 
-	setTimeout("animate()",10);
+	setTimeout(animate,10);
 }
 
 animate();
@@ -134,7 +132,7 @@ function sparkle() {
 		if (starv[c]) update_star(c);
 		if (tinyv[c]) update_tiny(c);
 	}
-	setTimeout("sparkle()", 40);
+	setTimeout(sparkle, 40);
 }
 
 function update_star(i) {

@@ -7,7 +7,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-require("custom/cursor_sprinkles")
+require("packs/cursor_sprinkles")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -16,5 +16,3 @@ require("custom/cursor_sprinkles")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
-console.log("This is the application.js calling")
